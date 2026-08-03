@@ -3,7 +3,7 @@ package testpackage;
 public class GitTest {
 
 	public static void main(String[] args) {
-		System.out.println("Minhaz");
+		System.out.println(10);
 		
 	}
 
