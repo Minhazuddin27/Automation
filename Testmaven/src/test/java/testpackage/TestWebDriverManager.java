@@ -10,7 +10,7 @@ public class TestWebDriverManager {
 	public static void main(String[] args) {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\asus\\eclipse-workspace\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup(); // execute on chrome
-		// here we no need to add path all finish here
+		// here we no need to add path all finish her
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://testautomationpractice.blogspot.com/");
 
