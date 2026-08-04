@@ -1,12 +1,12 @@
 package testpackage;
 
+import org.testng.annotations.Test;
+
 public class GitTest {
-
-	public static void main(String[] args) {
-
-		System.out.println(10);
-		
-
+	
+	@Test
+	public void Gittes() {
+		System.out.println("'hii Minhaz You are winner yaar'");
 		
 
 
